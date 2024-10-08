@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-    res.send('Hello, Docker! This is a sample change! 12345');
+    res.send('Hello, Docker! This is a sample change! Does it work?');
 });
 
 app.get('/secret', (req, res) => {
